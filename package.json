@@ -1,0 +1,17 @@
+{
+  "name": "exercicios-aquecimento-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start:js": "node index.js",
+    "start:ts": "ts-node index.ts",
+    "pokedex": "ts-node pokedex.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.0"
+  }
+}
